@@ -15,6 +15,7 @@ namespace Winterdom.Utilities.VSColorsToSql
 {
    class ColorImporter
    {
+       //change these lines to update to a newer version
       private const string SRC_KEY = @"Software\Microsoft\VisualStudio\10.0\FontAndColors\{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}";
       private const string DST_KEY = @"Software\Microsoft\Microsoft SQL Server\100\Tools\Shell\FontAndColors\{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}";
 
